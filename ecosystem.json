@@ -20,7 +20,7 @@
             "host": ["47.94.215.91"],
             "ref": "origin/master",
             "repo": "git@github.com:a549573735/ice.git",
-            "path": "/www/ice/production",
+            "path": "/home/lixiang/www/ice/production",
             "ssh_options": "StrictHostKeyChecking=no",
             "pre-deploy-local": "echo 'Deploy Done!'",
             "env":
