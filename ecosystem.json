@@ -22,7 +22,7 @@
       "path": "/home/lixiang/www/ice/production",
       "ssh_options": "StrictHostKeyChecking=no",
       "pre-deploy-local": "echo 'Deploy Done!'",
-      "post-deploy": "pm2 startOrRestart /home/lixiang/www/ice/production/source/ecosystem.json --env production",
+      "post-deploy": "pm2 startOrRestart /source/ecosystem.json --env production",
       "env": {
         "NODE_ENV": "production"
       }
