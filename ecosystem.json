@@ -21,7 +21,12 @@
       "repo": "git@github.com:a549573735/ice.git",
       "path": "/home/lixiang/www/ice/production",
       "ssh_options": "StrictHostKeyChecking=no",
+      "port":18888,
       "pre-deploy-local": "echo 'Deploy Done!'",
-      "post-deploy": "pm2 startOrRestart ecosystem.json --env production"    }
+      "post-deploy": "pm2 startOrRestart ecosystem.json --env production",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
   }
 }
