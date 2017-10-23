@@ -19,6 +19,7 @@
             "user": "lixiang",
             "host": ["47.94.215.91"],
             "ref": "origin/master",
+            "port":"22",
             "repo": "git@github.com:a549573735/ice.git",
             "path": "/home/lixiang/www/ice/production",
             "ssh_options": "StrictHostKeyChecking=no",
