@@ -1,7 +1,7 @@
 {
     "apps": [
     {
-        "name": "Ice",
+        "name": "ice",
         "script": "app.js",
         "env":
         {
@@ -18,10 +18,10 @@
         {
             "user": "lixiang",
             "host": ["47.94.215.91"],
-            "ref": "origin/master",
             "port":"39999",
+            "ref": "origin/master",
             "repo": "git@github.com:a549573735/ice.git",
-            "path": "/www/ice/production",
+            "path": "/home/lixiang/www/ice/production",
             "ssh_options": "StrictHostKeyChecking=no",
             "post-deploy":"pm2 startOrRestart ecosystem.json --env production",
             "pre-deploy-local": "echo 'deploy done!'",
