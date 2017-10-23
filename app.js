@@ -7,7 +7,7 @@
      res.end('hello word')
  })
  server.listen(port,hostname,()=>{
- 	console.log('server running on http://${hostname}:${port}')
+ 	console.log(`server running on http://${hostname}:${port}`)
  })
 
 
