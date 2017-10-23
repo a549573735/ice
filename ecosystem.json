@@ -1,7 +1,7 @@
 {
     "apps": [
     {
-        "name": "ice",
+        "name": "Ice",
         "script": "app.js",
         "env":
         {
